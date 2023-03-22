@@ -25,7 +25,7 @@ app.UseStatusCodePagesWithReExecute("/errors/{0}");
     app.UseSwagger();
     app.UseSwaggerUI();
 //}
-
+// test commit to git
 app.UseStaticFiles();
 
 app.UseAuthorization();
