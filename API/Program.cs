@@ -28,6 +28,8 @@ app.UseStatusCodePagesWithReExecute("/errors/{0}");
 // test commit
 app.UseStaticFiles();
 
+app.UseCors("CorsPolicy");
+
 app.UseAuthorization();
 
 app.MapControllers();
